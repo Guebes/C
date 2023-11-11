@@ -1,0 +1,34 @@
+package tarefa.pkg01;
+import java.util.Scanner;
+
+public class Tarefa01 {
+
+    public static void main(String[] args) {
+        
+        Scanner read = new Scanner(System.in);
+        
+        String auditorio;
+        int cadeiras;
+        
+        System.out.println("Hotel Nippon");
+        System.out.println("\n-------------------");
+        System.out.println("No auditório A pode escolher até 70 cadeiras");
+        System.out.println("\n-------------------");
+        System.out.println("No auditório B pode escolher até 350 cadeiras");
+        System.out.println("\n-------------------");
+
+        System.out.println("Escolha o auditório: ");
+        auditorio = read.nextLine();
+
+        System.out.println("Escolha a quantidade de cadeiras: ");
+        cadeiras = read.nextInt();
+        
+        if ("Auditório A".equalsIgnoreCase(auditorio) && cadeiras <= 70) {
+            System.out.println("O usuário escolheu o auditório A");
+        } else if ("Auditório B".equalsIgnoreCase(auditorio) && cadeiras <= 350) {    
+            System.out.println("Auditório B escolhido pelo usuário");
+        } else {
+            System.out.println("Auditório ou cadeiras não compatíveis ao sistema");
+        }
+    }
+}
