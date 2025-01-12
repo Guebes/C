@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1736544717 source:c:\users\edria\onedrive\Área de trabalho\estudosprova\listaduplamenteencad\listaduplamenteencad.c
+
+1736632091 source:c:\users\edria\onedrive\Área de trabalho\estudosprova\listaduplamenteencad\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	"Lista.header.h"
+
+1736629512 c:\users\edria\onedrive\Área de trabalho\estudosprova\listaduplamenteencad\lista.header.h
+
